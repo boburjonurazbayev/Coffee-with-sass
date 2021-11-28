@@ -1,0 +1,36 @@
+.footer .container {
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  padding: 46px 85px;
+  background-color: rgba(44, 52, 62, 1);
+}
+
+.nav--footer {
+  margin-left: 103px;
+  margin-right: auto;
+}
+
+.nav__link--footer {
+  &:hover {
+    color: rgba(254, 252, 247, 1);
+  }
+
+  &:active {
+    color: rgba(254, 252, 247, 1);
+  }
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer__social {
+    & + & {
+        margin-left: 24px;
+    }
+}

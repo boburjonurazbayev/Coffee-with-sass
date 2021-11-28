@@ -1,0 +1,36 @@
+.quality .container {
+  position: relative;
+  width: 1280px;
+  margin-bottom: 168px;
+  padding-top: 88px;
+  padding-right: 655px;
+  padding-bottom: 176px;
+  padding-left: 85px;
+  background-color: rgba(44, 52, 62, 1);
+  border-radius: 10px;
+
+  &::before {
+    position: absolute;
+    right: 85px;
+    bottom: 88px;
+    display: inline-block;
+    width: 445px;
+    height: 474px;
+    content: "";
+    background-image: url(../images/quality.png);
+  }
+}
+
+.task__box {
+    width: 540px;
+}
+
+.task__heading {
+    margin-bottom: 32px;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.task__description {
+    opacity: 0.8;
+}

@@ -1,0 +1,64 @@
+.branch .container {
+  margin-bottom: 168px;
+  padding: 0 137.5px;
+}
+
+.branch__heading {
+  margin: 0;
+  margin-bottom: 72px;
+  color: rgba(131, 136, 143, 1);
+}
+
+.branch__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.branch__item {
+  width: 285px;
+
+  & + & {
+    margin-left: 95px;
+  }
+  &--uk::before {
+    display: inline-block;
+    width: 41px;
+    height: 49px;
+    margin-bottom: 46px;
+    content: "";
+    background-image: url(../images/map-icon-1.png);
+  }
+
+  &--canada::before {
+    display: inline-block;
+    width: 52px;
+    height: 50px;
+    margin-bottom: 45px;
+    content: "";
+    background-image: url(../images/map-icon-2.png);
+  }
+
+  &--australia::before {
+    display: inline-block;
+    width: 49px;
+    height: 44px;
+    margin-bottom: 48px;
+    content: "";
+    background-image: url(../images/map-icon-3.png);
+  }
+}
+
+.branch___heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 36px;
+  color: rgba(51, 61, 75, 1);
+}
+
+.branch___description {
+  margin: 0;
+  color: rgba(51, 61, 75, 1);
+}

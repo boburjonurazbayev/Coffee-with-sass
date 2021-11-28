@@ -1,0 +1,88 @@
+.advantage .container {
+  position: relative;
+  margin-bottom: 350px;
+  padding: 100px 370px;
+  padding-bottom: 320px;
+  background-color: rgba(44, 52, 62, 1);
+  border-radius: 10px;
+}
+
+.advantage__heading {
+  margin-bottom: 32px;
+  font-family: "Fraunces", "Arial", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.advantage__description {
+  text-align: center;
+}
+
+.advantage__list {
+  position: absolute;
+  top: 345px;
+  left: 105px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.advantage__item {
+  width: 350px;
+  padding: 47px;
+  padding-top: 72px;
+  background-color: rgba(14, 135, 132, 1);
+  border-radius: 8px;
+
+  & + & {
+    margin-left: 30px;
+  }
+
+  &::before {
+    display: block;
+    content: "";
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+    // background-image: url(../images/coffee-bean.png);
+    background-repeat: no-repeat;
+    background-size: 72px 72px;
+    
+  }
+
+  &--coffee-bean::before {
+    background-image: url(../images/coffee-bean.png);
+  }
+
+  &--gift-box::before {
+    background-image: url(../images/gift-box.png);
+  }
+
+  &--shipping-car::before {
+    margin-top: 11px;
+    margin-bottom: 67px;
+    background-image: url(../images/shipping-car.png);
+    height: 50px;
+    background-size: 72px 50px;
+  }
+}
+
+.advantage___heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Fraunces", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.advantage___description {
+  margin: 0;
+  text-align: center;
+}
