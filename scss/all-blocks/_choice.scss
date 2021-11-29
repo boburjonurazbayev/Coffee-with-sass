@@ -75,3 +75,80 @@
     content: "05";
   }
 }
+
+.choice-form__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.choice-form__item {
+  width: 730px;
+  margin: 0;
+
+  & + & {
+    margin-top: 88px;
+  }
+}
+
+.choice-form__box--1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+
+.choice-form__heading {
+  margin: 0;
+  margin-right: auto;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(131, 136, 143, 1);
+}
+
+.choice-form__box--2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choice-form__label {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba(244, 241, 235, 1);
+
+  & + & {
+    margin-left: 23px;
+  }
+
+  &:hover {
+    background-color: rgba(253, 214, 186, 1);
+  }
+}
+
+.choice-form__input {
+  &:checked + .choice-form__controller {
+    background-color: rgba(14, 135, 132, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.choice-form__controller {
+  display: flex;
+  flex-direction: column;
+  width: 228px;
+  padding-top: 32px;
+  padding-right: 25px;
+  padding-bottom: 84px;
+  padding-left: 25px;
+  color: rgba(51, 61, 75, 1);
+  border-radius: 8px;
+}
+
+.choice-form___heading {
+  margin-bottom: 24px;
+  font-family: "Fraunces", "Arial", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}

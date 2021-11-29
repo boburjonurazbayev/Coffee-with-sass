@@ -59,77 +59,499 @@
         </div>
       </section>
 
-          <!-- Steps -->
+      <!-- Steps -->
 
-          <section class="steps steps--plan">
-            <div class="container">
-              <span class="step__line step__line--plan">
-                <span class="step__circle step__circle--plan step__circle step__circle--first"></span>
-                <span class="step__circle step__circle--plan step__circle--second"></span>
-                <span class="step__circle step__circle--plan step__circle--third"></span>
-              </span>
-    
-              <ul class="step__list">
-                <li class="step__item step__item--first">
-                  <h3 class="step___heading step___heading--plan">Pick your coffee</h3>
-    
-                  <p class="step___description step___description--plan">
-                    Select from our evolving range of artisan coffees. Our beans are
-                    ethically sourced and we pay fair prices for them. There are new
-                    coffees in all profiles every month for you to try out.
-                  </p>
-                </li>
-    
-                <li class="step__item step__item--second">
-                  <h3 class="step___heading step___heading--plan">Choose the frequency</h3>
-    
-                  <p class="step___description step___description--plan">
-                    Customize your order frequency, quantity, even your roast style
-                    and grind type. Pause, skip or cancel your subscription with no
-                    commitment through our online portal.
-                  </p>
-                </li>
-    
-                <li class="step__item step__item--third">
-                  <h3 class="step___heading step___heading--plan">Receive and enjoy!</h3>
-    
-                  <p class="step___description step___description--plan">
-                    We ship your package within 48 hours, freshly roasted. Sit back
-                    and enjoy award-winning world-class coffees curated to provide a
-                    distinct tasting experience.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </section>
+      <section class="steps steps--plan">
+        <div class="container">
+          <span class="step__line step__line--plan">
+            <span
+              class="
+                step__circle step__circle--plan step__circle step__circle--first
+              "
+            ></span>
+            <span
+              class="step__circle step__circle--plan step__circle--second"
+            ></span>
+            <span
+              class="step__circle step__circle--plan step__circle--third"
+            ></span>
+          </span>
 
-          <!-- Choice -->
+          <ul class="step__list">
+            <li class="step__item step__item--first">
+              <h3 class="step___heading step___heading--plan">
+                Pick your coffee
+              </h3>
 
-          <section class="choice">
-            <div class="container">
-              <ul class="choice__list">
-                <li class="choice__item">
-                  <a class="choice__link choice__link--1" href="#">Preferences</a>
-                </li>
-    
-                <li class="choice__item">
-                  <a class="choice__link choice__link--2" href="#">Bean Type</a>
-                </li>
-    
-                <li class="choice__item">
-                  <a class="choice__link choice__link--3" href="#">Quantity</a>
-                </li>
-    
-                <li class="choice__item">
-                  <a class="choice__link choice__link--4" href="#">Grind Option</a>
-                </li>
-    
-                <li class="choice__item">
-                  <a class="choice__link choice__link--5" href="#">Deliveries</a>
-                </li>
-              </ul>
-            </div>
-          </section>
+              <p class="step___description step___description--plan">
+                Select from our evolving range of artisan coffees. Our beans are
+                ethically sourced and we pay fair prices for them. There are new
+                coffees in all profiles every month for you to try out.
+              </p>
+            </li>
+
+            <li class="step__item step__item--second">
+              <h3 class="step___heading step___heading--plan">
+                Choose the frequency
+              </h3>
+
+              <p class="step___description step___description--plan">
+                Customize your order frequency, quantity, even your roast style
+                and grind type. Pause, skip or cancel your subscription with no
+                commitment through our online portal.
+              </p>
+            </li>
+
+            <li class="step__item step__item--third">
+              <h3 class="step___heading step___heading--plan">
+                Receive and enjoy!
+              </h3>
+
+              <p class="step___description step___description--plan">
+                We ship your package within 48 hours, freshly roasted. Sit back
+                and enjoy award-winning world-class coffees curated to provide a
+                distinct tasting experience.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Choice -->
+
+      <section class="choice">
+        <div class="container">
+          <ul class="choice__list">
+            <li class="choice__item">
+              <a class="choice__link choice__link--1" href="#choice_1"
+                >Preferences</a
+              >
+            </li>
+
+            <li class="choice__item">
+              <a class="choice__link choice__link--2" href="#choice_2"
+                >Bean Type</a
+              >
+            </li>
+
+            <li class="choice__item">
+              <a class="choice__link choice__link--3" href="#choice_3"
+                >Quantity</a
+              >
+            </li>
+
+            <li class="choice__item">
+              <a class="choice__link choice__link--4" href="#choice_4"
+                >Grind Option</a
+              >
+            </li>
+
+            <li class="choice__item">
+              <a class="choice__link choice__link--5" href="#choice_5"
+                >Deliveries</a
+              >
+            </li>
+          </ul>
+
+          <!-- Form -->
+
+          <form
+            class="choice-form"
+            action="https://echo.htmlacademy.ru/"
+            method="post"
+          >
+            <ul class="choice-form__list">
+              <li class="choice-form__item">
+                <div class="choice-form__box--1">
+                  <h3 class="choice-form__heading" id="choice_1">
+                    How do you drink your coffee?
+                  </h3>
+
+                  <img
+                    class="choice-form__symbol"
+                    src="./images/circumflex.svg"
+                    srcset="
+                      ./images/circumflex.svg    1x,
+                      ./images/circumflex@2x.svg 2x
+                    "
+                    alt="Circumflex symbol`s image"
+                    width="18"
+                    height="12"
+                  />
+                </div>
+
+                <div class="choice-form__box--2">
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="drink_type"
+                      required
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">Capsule</strong>
+
+                      <span class="choice-form___description">
+                        Compatible with Nespresso systems and similar brewers
+                      </span>
+                    </span>
+                  </label>
+
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="drink_type"
+                      required
+                      checked
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">Filter</strong>
+
+                      <span class="choice-form___description">
+                        For pour over or drip methods like Aeropress, Chemex,
+                        and V60
+                      </span>
+                    </span>
+                  </label>
+
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="drink_type"
+                      required
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">Espresso</strong>
+
+                      <span class="choice-form___description">
+                        Dense and finely ground beans for an intense, flavorful
+                        experience
+                      </span>
+                    </span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="choice-form__item">
+                <div class="choice-form__box--1">
+                  <h3 class="choice-form__heading" id="choice_2">
+                    What type of coffee?
+                  </h3>
+
+                  <img
+                    class="choice-form__symbol"
+                    src="./images/circumflex.svg"
+                    srcset="
+                      ./images/circumflex.svg    1x,
+                      ./images/circumflex@2x.svg 2x
+                    "
+                    alt="Circumflex symbol`s image"
+                    width="18"
+                    height="12"
+                  />
+                </div>
+
+                <div class="choice-form__box--2">
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="coffee_type"
+                      required
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading"
+                        >Single Origin</strong
+                      >
+
+                      <span class="choice-form___description">
+                        Distinct, high quality coffee from a specific
+                        family-owned farm
+                      </span>
+                    </span>
+                  </label>
+
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="coffee_type"
+                      required
+                      checked
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">Decaf</strong>
+
+                      <span class="choice-form___description">
+                        Just like regular coffee, except the caffeine has been
+                        removed
+                      </span>
+                    </span>
+                  </label>
+
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="coffee_type"
+                      required
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">Blended</strong>
+
+                      <span class="choice-form___description">
+                        Combination of two or three dark roasted beans of
+                        organic coffees
+                      </span>
+                    </span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="choice-form__item">
+                <div class="choice-form__box--1">
+                  <h3 class="choice-form__heading" id="choice_3">
+                    How much would you like?
+                  </h3>
+
+                  <img
+                    class="choice-form__symbol"
+                    src="./images/circumflex.svg"
+                    srcset="
+                      ./images/circumflex.svg    1x,
+                      ./images/circumflex@2x.svg 2x
+                    "
+                    alt="Circumflex symbol`s image"
+                    width="18"
+                    height="12"
+                  />
+                </div>
+
+                <div class="choice-form__box--2">
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="how_much"
+                      required
+                      checked
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">250g</strong>
+
+                      <span class="choice-form___description">
+                        Perfect for the solo drinker. Yields about 12 delicious
+                        cups.
+                      </span>
+                    </span>
+                  </label>
+
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="how_much"
+                      required
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">500g</strong>
+
+                      <span class="choice-form___description">
+                        Perfect option for a couple. Yields about 40 delectable
+                        cups.
+                      </span>
+                    </span>
+                  </label>
+
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="how_much"
+                      required
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">1000g</strong>
+
+                      <span class="choice-form___description">
+                        Perfect for offices and events. Yields about 90
+                        delightful cups.
+                      </span>
+                    </span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="choice-form__item">
+                <div class="choice-form__box--1">
+                  <h3 class="choice-form__heading" id="choice_4">
+                    Want us to grind them?
+                  </h3>
+
+                  <img
+                    class="choice-form__symbol"
+                    src="./images/circumflex.svg"
+                    srcset="
+                      ./images/circumflex.svg    1x,
+                      ./images/circumflex@2x.svg 2x
+                    "
+                    alt="Circumflex symbol`s image"
+                    width="18"
+                    height="12"
+                  />
+                </div>
+
+                <div class="choice-form__box--2">
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="grind"
+                      required
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">Wholebean</strong>
+
+                      <span class="choice-form___description">
+                        Best choice if you cherish the full sensory experience
+                      </span>
+                    </span>
+                  </label>
+
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="grind"
+                      required
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">Filter</strong>
+
+                      <span class="choice-form___description">
+                        For drip or pour-over coffee methods such as V60 or
+                        Aeropress
+                      </span>
+                    </span>
+                  </label>
+
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="grind"
+                      required
+                      checked
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">Cafetiére</strong>
+
+                      <span class="choice-form___description">
+                        Course ground beans specially suited for french press
+                        coffee
+                      </span>
+                    </span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="choice-form__item">
+                <div class="choice-form__box--1">
+                  <h3 class="choice-form__heading" id="choice_5">
+                    How often should we deliver?
+                  </h3>
+
+                  <img
+                    class="choice-form__symbol"
+                    src="./images/circumflex.svg"
+                    srcset="
+                      ./images/circumflex.svg    1x,
+                      ./images/circumflex@2x.svg 2x
+                    "
+                    alt="Circumflex symbol`s image"
+                    width="18"
+                    height="12"
+                  />
+                </div>
+
+                <div class="choice-form__box--2">
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="how_often"
+                      required
+                      checked
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">Every week</strong>
+
+                      <span class="choice-form___description">
+                        $7.20 per shipment. Includes free first-class shipping.
+                      </span>
+                    </span>
+                  </label>
+
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="how_often"
+                      required
+                    />
+
+                    <span
+                      class="
+                        choice-form__controller choice-form__controller--padding
+                      "
+                    >
+                      <strong class="choice-form___heading"
+                        >Every 2 weeks</strong
+                      >
+
+                      <span class="choice-form___description">
+                        $9.60 per shipment. Includes free priority shipping.
+                      </span>
+                    </span>
+                  </label>
+
+                  <label class="choice-form__label">
+                    <input
+                      class="choice-form__input visually-hidden"
+                      type="radio"
+                      name="how_often"
+                      required
+                    />
+
+                    <span class="choice-form__controller">
+                      <strong class="choice-form___heading">Every month</strong>
+
+                      <span class="choice-form___description">
+                        $12.00 per shipment. Includes free priority shipping.
+                      </span>
+                    </span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->

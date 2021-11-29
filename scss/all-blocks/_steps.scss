@@ -17,7 +17,7 @@
   margin-bottom: 80px;
   font-size: 24px;
   line-height: 32px;
-  color: rgba(131, 136, 143, 1);
+  color: rgb(53, 68, 88);
 }
 
 .step__line {
@@ -27,6 +27,7 @@
     display: inline-block;
     width: 760px;
     height: 1px;
+    margin-left: 15.5px;
     background-color: rgba(253, 214, 186, 1);
     content: "";
   }
@@ -37,25 +38,25 @@
   display: inline-block;
   width: 31px;
   height: 31px;
-  top: 1px;
+  top: 1.25px;
   background: rgba(254, 252, 247, 1);
   border: 2px solid rgba(14, 135, 132, 1);
   border-radius: 50%;
 
   &--plan {
-    background-color: transparent;
+    background-color: rgba(44, 52, 62, 1);
   }
-
+  
   &--first {
-    left: -15.5px;
+    left: 0;
   }
 
   &--second {
-    left: 365.5px;
+    left: 381px;
   }
 
   &--third {
-    left: 746.5px;
+    left: 762px;
   }
 }
 
