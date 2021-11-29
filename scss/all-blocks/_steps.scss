@@ -2,6 +2,16 @@
   padding-left: 85px;
 }
 
+.steps--plan .container {
+  background-color: rgba(44, 52, 62, 1);
+  margin-bottom: 159px;
+  padding-top: 91px;
+  padding-right: 150px;
+  padding-bottom: 107px;
+  padding-left: 85px;
+  border-radius: 10px;
+}
+
 .step__heading {
   margin: 0;
   margin-bottom: 80px;
@@ -17,7 +27,7 @@
     display: inline-block;
     width: 760px;
     height: 1px;
-    border: 2px solid rgba(253, 214, 186, 1);
+    background-color: rgba(253, 214, 186, 1);
     content: "";
   }
 }
@@ -27,20 +37,25 @@
   display: inline-block;
   width: 31px;
   height: 31px;
+  top: 1.5px;
   background: rgba(254, 252, 247, 1);
   border: 2px solid rgba(14, 135, 132, 1);
   border-radius: 50%;
 
+  &--plan {
+    background-color: transparent;
+  }
+
   &--first {
-    left: 0;
+    left: -15.5px;
   }
 
   &--second {
-    left: 381px;
+    left: 365.5px;
   }
 
   &--third {
-    left: 762px;
+    left: 746.5px;
   }
 }
 
@@ -86,16 +101,26 @@
 }
 
 .step___heading {
+  margin-top: 38;
   margin-bottom: 42px;
   font-size: 34px;
   line-height: 36px;
   color: rgba(51, 61, 75, 1);
+
+  &--plan {
+    color: rgba(254, 252, 247, 1);
+  }
 }
 
 .step___description {
-    color: rgba(51, 61, 75, 1);
+  margin: 0;
+  color: rgba(51, 61, 75, 1);
+
+  &--plan {
+    color: rgba(254, 252, 247, 1);
+  }
 }
 
 .step___link {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }

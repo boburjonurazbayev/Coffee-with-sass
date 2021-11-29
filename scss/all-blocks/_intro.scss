@@ -9,13 +9,30 @@
   border-radius: 10px;
 }
 
+.intro--plan .container {
+  background-image: url(../images/intro-back--plan.jpg);
+  padding: 134px 125px;
+  padding-right: 709px;
+  margin-bottom: 177px;
+}
+
 .intro__heading {
   margin: 0;
   margin-bottom: 24px;
   font-size: 40px;
   line-height: 48px;
+
+  &--plan {
+    margin-bottom: 32px;
+    font-size: 72px;
+    line-height: 72px;
+  }
 }
 
 .intro__description {
-    margin: 0;
+  margin: 0;
+
+  &--plam {
+    opacity: 0.8;
+  }
 }
