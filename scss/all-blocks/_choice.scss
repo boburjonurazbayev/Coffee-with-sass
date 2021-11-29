@@ -114,8 +114,8 @@
 .choice-form__label {
   display: flex;
   flex-direction: column;
-
   background-color: rgba(244, 241, 235, 1);
+  transition: background-color 0.2s ease;
 
   & + & {
     margin-left: 23px;
@@ -143,7 +143,6 @@
   padding-left: 25px;
   color: rgba(51, 61, 75, 1);
   border-radius: 8px;
-  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .choice-form___heading {
