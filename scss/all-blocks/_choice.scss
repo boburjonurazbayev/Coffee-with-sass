@@ -78,6 +78,7 @@
 
 .choice-form__list {
   margin: 0;
+  margin-bottom: 88px;
   padding: 0;
   list-style-type: none;
 }
@@ -151,4 +152,42 @@
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
+}
+
+.choice-form__answer {
+  width: 730px;
+  margin-bottom: 40px;
+  padding: 27px 64px;
+  background-color: rgba(44, 52, 62, 1);
+  border-radius: 10px;
+}
+
+.choice-form__answer--heading {
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: "Barlow", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.choice-form__answer--info {
+  margin: 0;
+  font-family: "Fraunces", "Arial", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 40px;
+}
+
+.choice-form__answer--key {
+  color: rgba(14, 135, 132, 1);
+}
+
+.choice-button {
+  display: block;
+  margin-left: auto;
 }
