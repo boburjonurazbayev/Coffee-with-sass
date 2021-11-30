@@ -1,8 +1,12 @@
-.steps__controller {
-  margin-left: 85px;
+.steps .container {
+  padding-left: 105px;
 }
+// .steps__controller {
+//   margin-left: 85px;
+// }
 
 .steps--plan .container {
+  width: 1280px;
   background-color: rgba(44, 52, 62, 1);
   margin-bottom: 159px;
   padding-top: 91px;
@@ -29,6 +33,7 @@
     height: 1px;
     margin-left: 15.5px;
     background-color: rgba(253, 214, 186, 1);
+    transform: translateY(-330%);
     content: "";
   }
 }
@@ -38,13 +43,12 @@
   display: inline-block;
   width: 31px;
   height: 31px;
-  top: 1.25px;
   background: rgba(254, 252, 247, 1);
   border: 2px solid rgba(14, 135, 132, 1);
   border-radius: 50%;
 
   &--plan {
-    background-color: rgba(44, 52, 62, 1);
+    background-color: transparent;
   }
   
   &--first {
