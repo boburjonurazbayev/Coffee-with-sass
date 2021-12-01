@@ -128,13 +128,13 @@
 }
 
 .choice-form__input {
-  &:checked + .choice-form__controller {
+  &:checked + .choice-form-controller {
     background-color: rgba(14, 135, 132, 1);
     color: rgba(255, 255, 255, 1);
   }
 }
 
-.choice-form__controller {
+.choice-form-controller {
   display: flex;
   flex-direction: column;
   width: 228px;
@@ -146,7 +146,7 @@
   border-radius: 8px;
 }
 
-.choice-form___heading {
+.choice-form-controller__heading {
   margin-bottom: 24px;
   font-family: "Fraunces", "Arial", sans-serif;
   font-weight: 900;
@@ -154,7 +154,7 @@
   line-height: 32px;
 }
 
-.choice-form__answer {
+.choice-form-answer {
   width: 730px;
   margin-bottom: 40px;
   padding: 27px 64px;
@@ -162,7 +162,7 @@
   border-radius: 10px;
 }
 
-.choice-form__answer--heading {
+.choice-form-answer__heading {
   margin: 0;
   margin-bottom: 8px;
   font-family: "Barlow", "Arial", sans-serif;
@@ -173,7 +173,7 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-.choice-form__answer--info {
+.choice-form-answer__info {
   margin: 0;
   font-family: "Fraunces", "Arial", sans-serif;
   font-weight: 900;
@@ -183,11 +183,11 @@
   line-height: 40px;
 }
 
-.choice-form__answer--key {
+.choice-form-answer__key {
   color: rgba(14, 135, 132, 1);
 }
 
-.choice-button {
+.button--choice {
   display: block;
   margin-left: auto;
 }

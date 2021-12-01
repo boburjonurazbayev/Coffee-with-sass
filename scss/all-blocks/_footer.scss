@@ -21,7 +21,7 @@
   }
 }
 
-.footer__socials {
+.footer-social__list {
     display: flex;
     align-items: center;
     margin: 0;
@@ -29,7 +29,7 @@
     list-style-type: none;
 }
 
-.footer__social {
+.footer-social__item {
     & + & {
         margin-left: 24px;
     }

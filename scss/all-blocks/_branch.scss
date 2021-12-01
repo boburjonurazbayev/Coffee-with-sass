@@ -9,20 +9,20 @@
   color: rgba(131, 136, 143, 1);
 }
 
-.branch__list {
+.branch-list {
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.branch__item {
+.branch-list__item {
   width: 285px;
 
   & + & {
     margin-left: 95px;
   }
-  &--uk::before {
+  &:nth-child(1):before {
     display: inline-block;
     width: 41px;
     height: 49px;
@@ -31,7 +31,7 @@
     background-image: url(../images/map-icon-1.png);
   }
 
-  &--canada::before {
+  &:nth-child(2):before {
     display: inline-block;
     width: 52px;
     height: 50px;
@@ -40,7 +40,7 @@
     background-image: url(../images/map-icon-2.png);
   }
 
-  &--australia::before {
+  &:nth-child(3):before {
     display: inline-block;
     width: 49px;
     height: 44px;
@@ -50,7 +50,7 @@
   }
 }
 
-.branch___heading {
+.branch-list__heading {
   margin: 0;
   margin-bottom: 24px;
   font-size: 32px;
@@ -58,7 +58,7 @@
   color: rgba(51, 61, 75, 1);
 }
 
-.branch___description {
+.branch-list__description {
   margin: 0;
   color: rgba(51, 61, 75, 1);
 }

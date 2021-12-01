@@ -1,9 +1,7 @@
 .steps .container {
+  margin-bottom: 200px;
   padding-left: 105px;
 }
-// .steps__controller {
-//   margin-left: 85px;
-// }
 
 .steps--plan .container {
   width: 1280px;
@@ -47,24 +45,24 @@
   border: 2px solid rgba(14, 135, 132, 1);
   border-radius: 50%;
 
-  &--plan {
-    background-color: transparent;
-  }
-  
-  &--first {
+  &:nth-child(1) {
     left: 0;
   }
 
-  &--second {
+  &:nth-child(2) {
     left: 381px;
   }
 
-  &--third {
+  &:nth-child(3) {
     left: 762px;
   }
 }
 
-.step__list {
+.plan-step__circle {
+  background-color: transparent;
+}
+
+.step-list {
   display: flex;
   margin-top: 82px;
   margin-bottom: 64px;
@@ -72,7 +70,7 @@
   list-style-type: none;
 }
 
-.step__item {
+.step-list__item {
   width: 284px;
 
   & + & {
@@ -89,24 +87,24 @@
     color: rgba(253, 214, 186, 1);
   }
 
-  &--first::before {
+  &:nth-child(1):before {
     width: 80px;
     content: "01";
   }
 
-  &--second::before {
+  &:nth-child(2):before {
     width: 101px;
     content: "02";
   }
 
-  &--third::before {
+  &:nth-child(3):before {
     width: 98px;
     content: "03";
   }
 }
 
-.step___heading {
-  margin-top: 38;
+.step-list__heading {
+  margin-top: 38px;
   margin-bottom: 42px;
   font-size: 34px;
   line-height: 36px;
@@ -117,15 +115,11 @@
   }
 }
 
-.step___description {
+.step-list__description {
   margin: 0;
   color: rgba(51, 61, 75, 1);
 
   &--plan {
     color: rgba(254, 252, 247, 1);
   }
-}
-
-.step___link {
-  margin-bottom: 200px;
 }

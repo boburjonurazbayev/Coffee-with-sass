@@ -20,7 +20,7 @@
   text-align: center;
 }
 
-.advantage__list {
+.advantage-list {
   position: absolute;
   top: 345px;
   left: 105px;
@@ -30,7 +30,7 @@
   list-style-type: none;
 }
 
-.advantage__item {
+.advantage-list__item {
   width: 350px;
   padding: 47px;
   padding-top: 72px;
@@ -48,21 +48,19 @@
     height: 72px;
     margin: 0 auto;
     margin-bottom: 56px;
-    // background-image: url(../images/coffee-bean.png);
     background-repeat: no-repeat;
     background-size: 72px 72px;
-    
   }
 
-  &--coffee-bean::before {
+  &:nth-child(1):before {
     background-image: url(../images/coffee-bean.png);
   }
 
-  &--gift-box::before {
+  &:nth-child(2):before {
     background-image: url(../images/gift-box.png);
   }
 
-  &--shipping-car::before {
+  &:nth-child(3):before {
     margin-top: 11px;
     margin-bottom: 67px;
     background-image: url(../images/shipping-car.png);
@@ -71,7 +69,7 @@
   }
 }
 
-.advantage___heading {
+.advantage-list__heading {
   margin: 0;
   margin-bottom: 24px;
   font-family: "Fraunces", "Arial", sans-serif;
@@ -82,7 +80,7 @@
   text-align: center;
 }
 
-.advantage___description {
+.advantage-list__description {
   margin: 0;
   text-align: center;
 }
