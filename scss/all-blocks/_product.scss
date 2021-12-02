@@ -1,29 +1,29 @@
 .product .container {
   width: 1112px;
   margin-bottom: 200px;
-  padding-top: 125px;
+  padding-top: 70px;
 }
 
-.product__heading {
+.product__heading-background {
   position: absolute;
-  transform: translateY(-55%);
-  margin: 0;
-  padding: 25px 0;
-  font-size: 150px;
-  line-height: 72px;
-  text-align: center;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(131, 136, 143, 0.4)),
-    to(transparent)
-  );
-  background: -o-linear-gradient(top, rgba(131, 136, 143, 0.4), transparent);
-  background: linear-gradient(180deg, rgba(131, 136, 143, 0.4), transparent);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  width: 1065px;
+  height: 200px;
+  background-image: url(../images/our-collection.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transform: translateY(-63%) translateX(0%);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .product__heading-background {
+    background-image: url(../images/our-collection@2x.png);
+  }
 }
 
 .product-list {
